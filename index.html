@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxicity Evaluator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Toxicity Evaluator</h1>
+        <p>Answer a few questions to see if your friend might be toxic.</p>
+
+        <div id="question-container">
+            <!-- Questions will be dynamically inserted here -->
+        </div>
+
+        <div class="progress">
+            <span id="progress-bar"></span>
+        </div>
+
+        <button id="next-button" class="btn">Next Question</button>
+        <button id="submit-button" class="btn hidden">Submit Results</button>
+
+        <div id="result" class="hidden">
+            <h2>Your Result:</h2>
+            <p id="toxic-result"></p>
+        </div>
+
+        <button id="reset-button" class="btn hidden">Try Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
