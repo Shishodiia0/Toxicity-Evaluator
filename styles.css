@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #444;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.hidden {
+    display: none;
+}
+
+#next-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#next-button:hover {
+    background-color: #45a049;
+}
+
+#submit-button {
+    background-color: #008CBA;
+    color: white;
+}
+
+#submit-button:hover {
+    background-color: #007bb5;
+}
+
+#reset-button {
+    background-color: #f44336;
+    color: white;
+}
+
+#reset-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Progress Bar */
+.progress {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 8px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+/* Result Section */
+#result {
+    margin-top: 30px;
+}
+
+#toxic-result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+/* Buttons for Answers */
+.answer-btn {
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.answer-btn:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.answer-btn.active {
+    background-color: #008CBA;
+    color: white;
+}
